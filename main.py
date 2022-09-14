@@ -39,7 +39,7 @@ import psycopg2
 
 def connectionDataPostgreSQL():
     conn = psycopg2.connect(
-        database="apt", user='postgres', host='127.0.0.1', port='5432'
+        database="pyapp", user="root", password="2010"
     )
     cursor = conn.cursor()
 
